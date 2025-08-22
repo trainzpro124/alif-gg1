@@ -1,0 +1,283 @@
+/* css font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* global */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bitcount", system-ui;
+}
+
+/* navbar */ 
+nav{
+    background-color: rgb(96, 185, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    color: rgb(242, 16, 242);
+    background-color: black;
+}
+
+/* hero */
+
+#hero {
+    display: flex;
+    padding: 3rem;
+    background-color: rgb(132, 198, 245);
+    
+}
+
+.kiri{
+    width: 60%;
+
+}
+
+.kanan {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.kanan img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,5);
+}
+
+.button{
+    margin-top: 33px;
+    display: flex;
+}
+
+.button a {
+    text-decoration: none;
+    color: aqua;
+    border: 3px solid;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.button a:hover{
+    background-color: rgb(112, 242, 251);
+    color: aliceblue;
+}
+
+/* section: skills*/
+#skills {
+    text-align: center;
+    background-color: rgb(66, 182, 224);
+    padding: 5rem 0 10rem 0;
+}
+
+#skills h2 {
+    font-size: 35px;
+}
+
+.skill img {
+    width: 30px;
+    
+}
+
+.skill {
+    border: 2px solid;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);   
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* testimoni */
+#testimoni {
+padding: 0.5rem;
+text-align: center;
+padding-bottom: 5rem;
+background-color: rgb(128, 167, 239);
+}
+#testimoni h2 {
+font-size: 35px;
+margin-bottom: 30px;
+}
+.testimoni-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2rem;
+}
+.testimoni-card {
+background-color: white;
+border-radius: 1rem;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+padding: 2rem;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimoni-card:hover {
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+transform: translateY(-5px);
+}
+.profile-img img {
+width: 120px;
+aspect-ratio: 1/1;
+border-radius: 50%;
+object-fit: cover;
+object-position: top;
+margin-bottom: 1rem;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.profile-info {
+text-align: center;
+color: rgb(89, 156, 255);
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 5); 
+}
+.profile-info h3 {
+margin: 0.5rem 0 0.2rem;
+font-size: 1.2rem;
+}
+.profile-info .title {
+color: #a81e1e;
+font-size: 0.9rem;
+margin-bottom: 1rem;
+}
+.profile-info .message {
+font-size: 0.9rem;
+color: #a62020;
+font-style: italic;
+}
+
+/* contact */
+#contact {
+padding: 0 5rem;
+text-align: center;
+padding-bottom: 5rem;
+background-color: rgb(69, 168, 255);
+}
+#contact h2 {
+font-size: 35px;
+margin-bottom: 30px;
+margin-top: 0;
+}
+.contact-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2rem;
+}
+.contact-card {
+background-color: rgb(255, 255, 255);
+border-radius: 1rem;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+padding: 2rem;
+width: 255px;
+display: flex;
+flex-direction: column;
+align-items: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+transform: translateY(-5px);
+}
+.profile-img img {
+width: 120px;
+aspect-ratio: 1/1;
+border-radius: 50%;
+object-fit: cover;
+object-position: top;
+margin-bottom: 1rem;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.profile-info {
+text-align: center;
+color: rgb(0, 0, 0);
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 5); 
+ font-size: large;
+}
+.profile-info h3 {
+margin: 0.5rem 0 0.2rem;
+font-size: 1.2rem;
+}
+.profile-info .title {
+color: #a81e1e;
+font-size: 0.9rem;
+margin-bottom: 1rem;
+}
+.profile-info .message {
+font-size: 0.9rem;
+color: #a62020;
+font-style: italic;
+}
+
+
+/* responsive css*/
+@media only screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+    .menu a{
+      font-size: small;
+      margin: 1rem;
+    }
+
+    #hero {
+      flex-direction: column-reverse;
+      padding: 5rem;
+      text-align: center;
+    }
+
+    .kiri {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .kanan {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .button {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+

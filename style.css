@@ -1,0 +1,32 @@
+.container{
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 377px;
+    height: 99px;
+    border: 2px solid black;
+}
+
+.box-1 {
+     background-image: url('patapim.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box-2 {
+    background-image: url(111116_pemandangankereta1\ \(1\)\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box-3 {
+    background-color: rgb(192, 205, 174);
+}
+.box-4 {
+    background-color: rgb(127, 85, 18);
+}
